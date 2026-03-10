@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>OceanicOxen.ExtraAnomalies</packageId>
-	<name>Extra Anomalies</name>
+	<packageId>OceanicOxen.AGSGACS</packageId>
+	<name>Animal Genetics Speed Gene Affects Caravan Speed</name>
 	<author>OceanicOxen</author>
 	<supportedVersions>
     	<li>1.6</li>
 	</supportedVersions>
 	<loadAfter>
-    	<li>Ludeon.RimWorld.Anomaly</li>
     	<li>brrainz.harmony</li>
-		<li>MrHydralisk.AnomaliesExpected</li>
+		<li>mlie.animalgenetics</li>
   	</loadAfter>
 	<modDependencies>
 		<li>
@@ -19,13 +18,9 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 		<li>
-			<packageId>Ludeon.Rimworld.Anomaly</packageId>
-			<displayName>Anomaly</displayName>
-		</li>
-		<li>
-			<packageId>MrHydralisk.AnomaliesExpected</packageId>
-			<displayName>Anomalies Expected</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3240752689</steamWorkshopUrl>
+			<packageId>mlie.animalgenetics</packageId>
+			<displayName>Animal Genetics (Continued)</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2830943477</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 
@@ -33,5 +28,5 @@
 		<!-- <li>username.modname</li> -->
 	</incompatibleWith>
 
-	<description>Adds extra anomalies to the game.</description>
+	<description>Makes the speed gene affect caravan riding speed.</description>
 </ModMetaData>

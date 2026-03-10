@@ -5,8 +5,8 @@
 		<PlatformTarget>x64</PlatformTarget>
 
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
-		<RootNamespace>ExtraAnomalies</RootNamespace>
-		<AssemblyName>ExtraAnomalies</AssemblyName>
+		<RootNamespace>AGSGACS</RootNamespace>
+		<AssemblyName>AGSGACS</AssemblyName>
 		<OutputPath>../1.6/Assemblies</OutputPath>
 		<VersionPrefix>0.1.0.0</VersionPrefix>
 
@@ -34,14 +34,10 @@
 			<Private>False</Private>
 		</Reference>
 
-		<!-- *Uncomment for Anomalies Expected*-->
-		<Reference Include="../../../../../../steamapps/workshop/content/294100/3240752689/1.6/Assemblies/Anomalies Expected.dll">
+		<!-- *Uncomment for Animal Genetics*-->
+		<Reference Include="../../../../../../steamapps/workshop/content/294100/2830943477/1.6/Assemblies/AnimalGenetics.dll">
 			<Private>False</Private>
 		</Reference>
 
-		<!-- *Uncomment for Anomalies Expected Addon*-->
-		<Reference Include="../../../../../../steamapps/workshop/content/294100/3251944598/Assemblies/AEAddon.dll">
-			<Private>False</Private>
-		</Reference>
 	</ItemGroup>
 </Project>
